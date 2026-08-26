@@ -1,5 +1,68 @@
 # Changelog
 
+## [3.0.0](https://github.com/ngoc-quoc-huynh/dart-code-linter/compare/v2.0.0...v3.0.0) (2026-08-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* Minimum Dart SDK bumped to >=3.5.0.
+
+### Features
+
+* add autofix for newline-before-return with edge-case fixture coverage ([#227](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/227)) ([c196357](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/c1963570179863df5bfdc9ebe70aa3adfadf92f0))
+* add new rule prefer-media-query-direct-access ([7d257c5](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/7d257c5181ec5a210df194556f3c990e750d4e2e))
+* add new rule prefer-media-query-direct-access ([546f86b](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/546f86be573dff31dc6b5760c5a4a5e2b1da472f))
+* Add new rules ([#260](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/260)) ([12642bc](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/12642bccdce342d7fe761e08fa2a4f664a6c5501))
+* add rule prefer-named-record-fields ([50b2177](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/50b2177744243db13de3d8534b0d1b405a193920))
+* add rule prefer-named-record-fields ([bd24366](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/bd24366647caf8d28ee5f59a0876b5a9a0fdcfed))
+* analyzer 13.x support (release 4.1.0) ([#237](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/237)) ([2b9f6d7](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/2b9f6d73413cded2186b6c84bd16b29769ac961a))
+* **avoid-duplicate-exports:** add auto-fix to delete the duplicate export directive ([#247](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/247)) ([63dba63](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/63dba638f14a2d71164b09c5239f5b34b12d921d))
+* **avoid-unnecessary-type-casts:** add auto-fix to remove redundant cast ([#244](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/244)) ([2d631ac](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/2d631ac48a4f97d7f786b13453c4c09f4f6cad62))
+* **new_rules_and_multiple_suggestions:** adapt barrel rule message ([264d52e](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/264d52e21eea007dbcd8e4c6d1ac7e269d68de70))
+* **new_rules_and_multiple_suggestions:** add rules to rules factory ([cbed444](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/cbed444c1fe5aeec20c6ea71456b20c9de094a10))
+* **new_rules_and_multiple_suggestions:** add some docs ([622d8bd](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/622d8bd08aa32af5990e44a99152825ff67c9d95))
+* **new_rules_and_multiple_suggestions:** add use_design_system_item and only_barrel_import rules and adapt codebase to multiple suggestions ([b89a821](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/b89a8213dd0d6fb0e5d7f514e7731fbff4a4b188))
+* **new_rules_and_multiple_suggestions:** bump version ([6e89367](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/6e89367ea72fdf7b598cfb45b705e2a0e56fa129))
+* **new_rules_and_multiple_suggestions:** fix conflicts ([afacbe3](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/afacbe3dd7914a1998235de8af86af783630f2e5))
+* **new_rules_and_multiple_suggestions:** fix conflicts ([90d4cd2](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/90d4cd2401501252594c67b16c93653221f8cde8))
+* **new_rules_and_multiple_suggestions:** fix pr issues ([e4f7937](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/e4f79371a7f8718d96392aba83acb40bc422bd80))
+* **new_rules_and_multiple_suggestions:** fix priority & bump version ([ce51d1a](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/ce51d1a4005fcd8f38592d270f81baea63b482c4))
+* **new_rules_and_multiple_suggestions:** fix tests ([3bf41df](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/3bf41df878a568dae20c2130f0fde47aea5bb3fb))
+* **new_rules_and_multiple_suggestions:** remove todo ([54c69c1](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/54c69c158052107b9a1bf387cc89a8398ff6f1b3))
+* **no-blank-line-before-single-return:** add auto-fix and fix trailing-brace false positive ([#245](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/245)) ([432bb45](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/432bb4552b19f5fd394dd3898f0cb66c3c7b4936))
+* **prefer-enums-by-name:** add guarded auto-fix to convert firstWhere to values.byName (4.1.6) ([#248](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/248)) ([d50c899](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/d50c8995e244bda72ccb7f991de2a2566e4b12b2))
+* **prefer-match-file-name:** add config for excluding enums and typedefs ([#242](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/242)) ([ebcab9b](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/ebcab9b2b16bb190403ffacdfb1cab2efa967572))
+* **prefer-moving-to-variable:** add ignored-invocations and ignored-targets options ([#218](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/218)) ([17f3cb5](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/17f3cb557eb3d12933f9146f63e73c0616910c81))
+* **unused-code:** detect unused private class members behind a flag ([#176](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/176)) ([#259](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/259)) ([be95d7c](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/be95d7c324ae127e8bc37667c07a8f0a7e235e47))
+* **unused-code:** detect unused public members behind a flag ([#176](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/176)) ([#268](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/268)) ([ee53c11](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/ee53c1137a824bcdda73258885e74307ef66687e))
+* update analyzer dependency ([d66a8e1](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/d66a8e14e2373af6ab9a208888c4c1892c6e847f))
+* Update pubspec.yaml ([e82df32](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/e82df32695dcb78086303a2932901fd7bb382f81))
+
+
+### Bug Fixes
+
+* address PR [#216](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/216) review feedback and resolve merge conflicts ([#221](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/221)) ([089aa87](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/089aa87741ed8795558eb1eef9a0d4cde1502643))
+* **analyzer-plugin:** replace deprecated getChildAssumingFile with getFile ([#250](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/250)) ([#254](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/254)) ([814cc27](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/814cc2726040c17a4cd0e79e3c82f2cd04addbb2))
+* **avoid-unused-parameters:** replace deprecated MethodDeclaration.isAbstract across analyzer matrix ([#253](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/253)) ([d2c1e9d](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/d2c1e9dfe1167018c4736122e676403b7c2f0ec3))
+* change rule category ([c56f5dd](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/c56f5dd901a8e5c8dc50882bee91f7699238ae08))
+* change rule category ([04b199b](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/04b199b60c1e576bf9be384966590a0824fdebfc))
+* correct packageVersion constant and bump to 4.0.2 ([#230](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/230)) ([b7de35f](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/b7de35fbc691b8325abc9c2bcf1f9726c14baac7))
+* delete dev_dependencies ([e21ed2f](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/e21ed2fecc647103c73d579eccdd669223ad713b))
+* fix DCL version in analyzer_plugin ([ca37d4a](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/ca37d4a4d30e7e165ebe385b83b61bb31fee17c7))
+* **lint-analyzer:** apply fixes back-to-front to avoid RangeError on multiple fixes ([#188](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/188)) ([#246](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/246)) ([db411dd](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/db411dd9d4ee7655d20793b017086cdd34387be5))
+* **lint-analyzer:** resolve ExtensionTypeDeclaration.primaryConstructor deprecation via ast_compat helper ([#249](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/249)) ([#252](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/252)) ([1d7eddc](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/1d7eddccb29c21e6be07ccd09127f322ef1505c0))
+* **metrics:** respect per-line `// ignore:` comments for metric violations ([#236](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/236)) ([d2fbbc1](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/d2fbbc11152c38658b88f3c78467208f666b46d4))
+* migrate lint_analyzer ([87c8785](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/87c8785cfa2a543dffa905934f9b0a6570dfdfa1))
+* **no-magic-number:** remove self-reported parameter_assignments analyzer warnings ([#243](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/243)) ([1633fa7](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/1633fa716ccbce38a83a05f848b99a1b9d1532d6))
+* **prefer-dot-shorthands:** add support for unnamed constructors ([#266](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/266)) ([f684aec](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/f684aec04a2312f5776927ecda6731a41ab613b5))
+* **prefer-moving-to-variable:** 4.0.3: detect duplicates in expression bodies + release process docs ([#219](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/219)) ([3e0f799](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/3e0f7992e7aa8df9f4a5570ba7050dc0ad7039bb))
+* Recover example.dart with its empty lines for test to catch these issues ([43b7abc](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/43b7abca76f3a351991a2dff6df98fd681e7f52c))
+* relax analyzer constraints for Flutter stable compatibility ([#228](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/228)) ([#229](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/229)) ([9771482](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/9771482d7e46a42f61ab6e32798d475b43096157))
+* remove unsafe_html linter rule and update element references ([84a9efa](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/84a9efa26720f415ba593c58415df6751ef751f6))
+* support configured plugin rules on Dart 3.13 ([#263](https://github.com/ngoc-quoc-huynh/dart-code-linter/issues/263)) ([6a20197](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/6a201970248f488f7304ffbdc88fc7cdf1676de6))
+* update DCL version in analyzer_plugin ([51c759d](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/51c759dd156f3f3bb75a77aa5e582924d00f1e99))
+* visitor and replacement ([617900b](https://github.com/ngoc-quoc-huynh/dart-code-linter/commit/617900b380890681a222717d2b8154392b362efe))
+
 ## 4.3.0
 - Add opt-in detection of unused public members in type declarations to `check-unused-code`, enabled via the `--analyze-public-members` CLI flag or the `unused-code.analyze-public-members` analysis-options key and disabled by default. It is independent of `analyze-private-members`, so a large project can keep the cheaper private members check on while leaving this one off. Members that cannot be seen to be used through a reference are skipped instead of reported: members overriding or implementing an inherited member (found by walking `allSupertypes`, which also covers `toString`/`hashCode`/`noSuchMethod` and overrides written without `@override`), members carrying an annotation that says they are called from elsewhere (`@override`, `@mustBeOverridden`, `@visibleForOverriding`, `@redeclare`, `@protected`, `@visibleForTesting`, `@JS`, `@pragma('vm:entry-point')`), members exported to JavaScript with `@JSExport` (counted from the enclosing class too, but there only for its instance members, since a class level annotation never wraps statics; a class level `@pragma('vm:entry-point')` deliberately does not work this way at all, as it only permits allocation from native code and leaves members needing their own pragma), members whose name is invoked or read on a `dynamic` target anywhere in the program, `toJson` (called by `json.encode` rather than by reference), enum constants of an enum whose `values` is referenced, and unnamed constructors (their invocations carry no identifier to record; named constructors are analyzed).
 - Record usages of members reached without an identifier: binary, index, unary and increment operator invocations (`a + b`, `a[b]`, `-a`, `a++`) and implicit `call` invocations previously marked only the enclosing extension as used, so a class's operators looked unused as soon as member analysis was on. The combiner of a compound assignment (`a += b`, which reaches `operator +`) was recorded nowhere at all, so an extension whose operator is used only that way was falsely reported even by the default top-level analysis. Operators and implicit `call` invocations on a `dynamic` target resolve to no element and are now recorded by the member name they reach, the same way dynamic method calls and property reads are.
@@ -158,5 +221,3 @@
 
 ## 1.0.0
 - Fork: [Dart code metrics 5.7.3](https://github.com/dart-code-checker/dart-code-metrics)
-
-
